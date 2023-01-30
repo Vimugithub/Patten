@@ -1,0 +1,76 @@
+<html>
+<head><title></title></head>
+<body>
+<script language="javascript">
+	var i,j;
+	for(i=1;i<=10;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			document.write("*&nbsp;&nbsp;&nbsp;");
+		}
+		document.write("<br>");
+	}
+</script>
+<br>
+<script language="javascript">
+	var i,j;
+	for(i=1;i<=10;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			document.write(i+"&nbsp;&nbsp;&nbsp;");
+		}
+		document.write("<br>");
+	}
+</script>
+<br><br>
+<script language="javascript">
+	var i,j;
+	for(i=1;i<=10;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			document.write(j+"&nbsp;&nbsp;&nbsp;");
+		}
+		document.write("<br>");
+	}
+</script>
+<br><br>
+ <script>
+	var i;
+	var j;
+	var k=1;
+	var z=1;
+	var spaces;
+	for (i=1;i<=10;i++)
+	{
+		for(spaces=1;spaces<=00-z;spaces++)
+		{
+			document.write("&nbsp;");
+		}
+		for(j=1;j<=i;j++)
+		{
+			document.write(k+"&nbsp;");
+			k=k+2;
+		}
+		document.write("<br>");
+		z=z+2
+	}
+	
+</script>
+<br><br>
+ <script>
+    let n = 10; // you can take input from prompt or change the value
+    let string = "";
+    for (let i = 0; i < n; i++) {
+      // printing star
+      for (let k = 0; k < n - i; k++) {
+        string += "*&nbsp;&nbsp;";
+      }
+      string += "<br>";
+    }
+    document.write(string);
+  </script>
+  </body>
+</html>
